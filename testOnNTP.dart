@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:ntp/ntp.dart';
 
-class TestError extends StatefulWidget {
-  _TestErrorState createState() => _TestErrorState();
+class Test extends StatefulWidget {
+  _TestState createState() => _TestState();
 }
 
-class _TestErrorState extends State<TestError> {
+class _TestState extends State<Test> {
   DateTime _currentTime;
   DateTime _ntpTime;
   int _ntpOffset;  
